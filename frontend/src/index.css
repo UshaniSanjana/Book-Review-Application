@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: radial-gradient(circle, rgb(205, 205, 249), rgb(7, 28, 133)); /* Adjust this for your navbar color */
+}
+
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+
+
+nav {
+  background-color: #6200ea;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.book-cards-container {
+  display: flex; 
+  justify-content: center; 
+  gap: 1.5rem; 
+  flex-wrap: wrap; 
+  padding: 2rem; 
+  background-color: #f5f5f5;
+}
+
+
+.book-card {
+  background: radial-gradient(circle, rgb(107, 198, 255), rgb(5, 24, 117));
+  color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  padding: 1rem;
+  text-align: center;
+}
+
+
+.edit-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+
+.delete-button {
+  background-color: #dc3545;
+  color: rgb(3, 2, 2);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+
+.edit-link:hover {
+  text-decoration: underline;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+
+.book-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.book-card button {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.book-card button:hover {
+  background-color: #d50000;
+}
+
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #6200ea;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #3700b3;
+}
